@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container ">
+            <a href="/" style="font-size: large;">
+              <i class="fa fa-bed fa-1x"></i>Find Stays</a>   
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" 
+              aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+              <div class="navbar-nav ms-auto ">
+                <a class="nav-item nav-link" href="/home">Home</a>
+                <a class="nav-item nav-link" href="/about-us">About Us</a>
+                <a class="nav-item nav-link" href="/contact-us">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section>
+          <ul class="container custom-list">
+            <li><a href="/"><span>Kenya</span></a></li>
+            <li><a href="/"><span>Mombasa</span></a></li>
+            <li><a href="/"><span>Famingo Beach</span></a></li>
+          </ul>
+      </section>
+      <main role="main" class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <article class="media content-section">
+                <div class="media-body">
+                  <div class="article-metadata">
+                    <table class="table table-borderless">
+                      <tbody>
+                        <tr>
+                          <td><h3 style="font-family: 'Times New Roman', Times, serif;">Superior room - 1 double room or 2 twin beds</h3></td>
+                          <td></td>
+                          <td></td>
+                          <td style="color: blueviolet;"><span style="font-weight: bold; font-size: 2em;">$250/</span>night</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <form class="form form-control" style="margin-bottom: 5%;">
+                    <img src="flamingo.png" alt="logo">
+                    <div class="text-locate" style="padding: 10px;">
+                      <h3>Flamingo Hotel</h3>
+                      <p><span><i class="fa fa-map-marker-alt" ></i></span> Shanzu Mombasa 80100</p>
+                    </div>
+                  </form>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td>
+                        <h4>Thursday Dec, 8</h4>
+                        <p>Check-in</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-map-pin fa-rotate-270 fa-2x"></i>
+                      </td>
+                      <td></td>
+                      <td>
+                        <a href="/"><i class="fa fa-calendar-check fa-2x"></i></a>
+                      </td>
+                      <td>
+                        <i class="fa fa-map-pin fa-rotate-90 fa-2x"></i>
+                      </td>
+                      <td></td>
+                      <td>
+                        <div>
+                          <h4>Friday Dec, 9</h4>
+                          <p>Check-Out</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                  <div>
+                    <form style="padding-bottom: 20px ; color: black;"> 
+                      <label for="number">Number of people</label>
+                      <input type="number" style="width: 50%; border-radius: 10px; height: 50px; border: 1px solid #dddddd;" id="text">
+                    </form>
+                  </div>
+                </div>
+              </article>
+          </div>
+          <div class="col-md-4">
+            <div class="container content-section">
+              <form class="form" style="margin-bottom: 5%;">
+                <img src="flamingo.png" alt="logo">
+                <div class="text-locate" style="padding: 5px;">
+                  <p>Flamingo Hotel</p>
+                  <h6>Superior room - 1 double room or 2 twin beds</h6>
+                </div>
+              </form>
+                <table class="table table-borderless">
+                  <tbody>
+                      <p style="border-top: 1px solid; border-bottom: 1px solid; padding: 2%; font-weight:400; color: #bdb4b4;">Your booking is protected by Lupa Travels.</p>
+                    <tr>
+                      <h5 style="font-size: large; font-weight: bold;">Price Details</h5>
+                    </tr>
+                    <tr>
+                      <td>Base Fare</td>
+                      <td></td>
+                      <td></td>
+                      <td>$240</td>
+                    </tr>
+                    <tr>
+                      <td>Disount</td>
+                      <td></td>
+                      <td></td>
+                      <td>$0</td>
+                    </tr>
+                    <tr>
+                      <td>Taxes</td>
+                      <td></td>
+                      <td></td>
+                      <td>$20</td>
+                    </tr>
+                    <tr>
+                      <td>Service Fee</td>
+                      <td></td>
+                      <td></td>
+                      <td>$5</td>
+                    </tr>
+                    <tr class="underline">
+                      <td style="font-size: large; font-weight: bold;">Total</td>
+                      <td></td>
+                      <td></td>
+                      <td style="font-size: large; font-weight: bold; padding-bottom: 23px;">$265</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="pay-section">
+              <form class="form-control" style="background-color: violet;">
+                <label for="pay-form" style="color: black;">
+                <h5>Make Full Payment</h5>
+                <p>Pay the total and you are all set</p></label>
+                <input type="checkbox" style="border-radius: 100%;" class="form-check-input">
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="checkbox">Change Text Area Color</label>
+            <input type="checkbox" id="checkbox">
+            <br>
+            <textarea id="text-area" placeholder="Type something...">This is some pre-filled text.</textarea>
+          </div>
+        </div>
+      </div>    
+      <script>
+        const checkbox = document.getElementById('checkbox');
+        const textArea = document.getElementById('text-area');
+
+        checkbox.addEventListener('change', function () {
+            if (checkbox.checked) {
+                textArea.style.backgroundColor = 'lightblue';
+            } else {
+                textArea.style.backgroundColor = ''; // Reset to default
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    background: #e3e3e3;
+    color: #cbd5db;
+    margin-top: 5rem;
+    /* overflow: hidden; */
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+
+  p {
+    color: #333;
+  }
+
+
+.fa.fa-bed {
+  color: #333; 
+}
+
+a i {
+  margin-right: 8px; 
+}
+
+  
+  .navbar {
+      background-color: #ffffff;
+      color: black;
+      padding: 20px;
+      /* transition: height 0.3s ease; Add a smooth transition effect for height changes */
+  }
+  .navbar.active {
+    height: 50px; /* Set the desired height when the navbar is toggled */
+}
+  
+  .site-header .navbar-nav .nav-link {
+    color: #333;
+  }
+  /* .navbar-nav {
+    float: right;
+  }
+   */
+  .site-header .navbar-nav .nav-link:hover {
+    color: #333;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  section {
+      padding: 2px;
+      transition: margin-top 0.3s ease; /* Add a smooth transition effect for margin-top changes */
+  }
+
+   .content-section {
+    background: #ffffff;
+    padding: 1px 20px;
+    border: 1px #dddddd;
+    border-radius: 15px;
+  }
+
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  /* .content-list {
+    list-style: none; */
+
+/* } */
+li {
+    display: inline;
+    color: #444444;
+}
+li + li::before {
+    content: " > ";
+    margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  font-family:"Candara", sans-serif;
+  font-weight: 100;
+}
+
+ul.custom-list {
+  padding-top: 6px;
+}
+
+ul.custom-list li a {
+  color: blueviolet;
+}
+table {
+  border-collapse: collapse;
+}
+
+table {
+  border-top: none; /* Remove border from all rows */
+}
+
+tr.underline {
+  border-top: 2px solid black; /* Add border only to the last row */
+}
+
+.form{
+  display: flex;
+  align-items: center;
+}
+
+.form img{
+  width: 70px;
+  margin-right:10px;
+  height: auto;
+}
+
+.pay-section {
+  margin-top: 10px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px #dddddd;
+  border-radius: 10px;
+}
+
+.text-area {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
