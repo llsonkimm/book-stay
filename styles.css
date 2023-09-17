@@ -133,7 +133,7 @@ tr.underline {
 }
 
 .pay-section {
-  margin-top: 10px;
+  margin-top: 20px;
   background: #ffffff;
   padding: 10px 20px;
   border: 1px #dddddd;
@@ -148,6 +148,10 @@ tr.underline {
   transition: background-color 0.3s ease-in-out;
 }
 
-.checkbox {
-  margin-top: 10px;
+.button {
+  margin-top: 20px;
+  size: 200px;
+  color: black;
+  background: rgb(152, 86, 214);
+  border-radius: 10px;
 }
