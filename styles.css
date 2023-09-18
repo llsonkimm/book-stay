@@ -173,3 +173,35 @@ tr.underline {
   /* padding: 20px 200px; */
   font-family: 'Times New Roman', Times, serif;
   }
+
+  .fa.fa-facebook-f{
+    color: rgb(18, 101, 104);
+  }
+  .fa.fa-twitter{
+    color: rgb(18, 101, 104);
+  }
+  .fa.fa-youtube{
+    color: rgb(18, 101, 104);
+  }
+  
+  .fa.fa-instagram{
+    color: rgb(18, 101, 104);
+  }
+  .card{
+    background: violet;
+  }
+
+/* .card-group{
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    
+}
+.card {
+  width: 100%; 
+  margin:0px;
+}
+@media screen and (max-width: 1000px) {
+  .card {
+      width: 200px; 
+  }
+} */
