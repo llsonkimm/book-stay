@@ -1,5 +1,5 @@
 body {
-    background: #e3e3e3;
+    background: rgb(248, 248, 248);
     color: #cbd5db;
     margin-top: 5rem;
     /* overflow: hidden; */
@@ -100,6 +100,7 @@ a {
   text-decoration: none;
   font-family:"Candara", sans-serif;
   font-weight: 100;
+  color: #333;
 }
 
 ul.custom-list {
@@ -150,8 +151,25 @@ tr.underline {
 
 .button {
   margin-top: 20px;
-  size: 200px;
   color: black;
   background: rgb(152, 86, 214);
   border-radius: 10px;
 }
+
+.info-section {
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px #dddddd;
+  border-radius: 10px;
+}
+
+.subscribe-section {
+  margin-top: 20px;
+  background: #eedada;
+  padding: 10px 20px;
+  border: 1px #dddddd;
+  border-radius: 10px;
+  /* padding: 20px 200px; */
+  font-family: 'Times New Roman', Times, serif;
+  }
